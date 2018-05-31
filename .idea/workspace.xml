@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3a4b054-26e2-48b1-8256-4114f3650163" name="Default" comment="" />
+    <list default="true" id="a3a4b054-26e2-48b1-8256-4114f3650163" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/documentos/template.docx" afterPath="$PROJECT_DIR$/documentos/template.docx" />
+      <change beforePath="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" />
+      <change beforePath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/web/Prueba.docx" afterPath="$PROJECT_DIR$/web/Prueba.docx" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,37 +21,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-              <folding>
-                <element signature="e#3632#3639#1#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="87" column="130" lean-forward="false" selection-start-line="87" selection-start-column="130" selection-end-line="87" selection-end-column="130" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
+            <state relative-caret-position="272">
+              <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
               <folding>
-                <element signature="e#41#98#0#PHP" expanded="true" />
-                <element signature="e#412#436#1#PHP" expanded="true" />
-                <element signature="e#489#510#1#PHP" expanded="true" />
-                <element signature="e#553#589#0#PHP" expanded="true" />
-                <element signature="e#812#833#1#PHP" expanded="true" />
-                <element signature="e#888#912#1#PHP" expanded="true" />
-                <element signature="e#964#988#1#PHP" expanded="true" />
+                <element signature="e#41#101#0#PHP" expanded="true" />
+                <element signature="e#476#500#1#PHP" expanded="true" />
+                <element signature="e#553#574#1#PHP" expanded="true" />
+                <element signature="e#624#648#1#PHP" expanded="true" />
+                <element signature="e#691#727#0#PHP" expanded="true" />
+                <element signature="e#1204#1225#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,8 +60,8 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
         <option value="$PROJECT_DIR$/src/CoreBundle/Entity/TblCurso.php" />
-        <option value="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -136,24 +142,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="DC3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DC3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DC3b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC3b" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="DC3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DC3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DC3b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC3b" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="documentos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="DC3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DC3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DC3b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC3b" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="DC3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DC3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DC3b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DC3b" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -165,7 +171,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sasisopa" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -204,25 +210,26 @@
       <workItem from="1527781884084" duration="3745000" />
       <workItem from="1527787249663" duration="217000" />
       <workItem from="1527788430635" duration="7902000" />
+      <workItem from="1527801973238" duration="4691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11864000" />
+    <option name="totallyTimeSpent" value="16555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -248,10 +255,31 @@
     <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
           <folding>
-            <element signature="e#3632#3639#1#HTML" expanded="true" />
+            <element signature="e#41#101#0#PHP" expanded="true" />
+            <element signature="e#476#500#1#PHP" expanded="true" />
+            <element signature="e#553#574#1#PHP" expanded="true" />
+            <element signature="e#624#648#1#PHP" expanded="true" />
+            <element signature="e#691#727#0#PHP" expanded="true" />
+            <element signature="e#1204#1225#1#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -260,13 +288,12 @@
         <state relative-caret-position="238">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="e#41#98#0#PHP" expanded="true" />
-            <element signature="e#412#436#1#PHP" expanded="true" />
-            <element signature="e#489#510#1#PHP" expanded="true" />
-            <element signature="e#553#589#0#PHP" expanded="true" />
-            <element signature="e#812#833#1#PHP" expanded="true" />
-            <element signature="e#888#912#1#PHP" expanded="true" />
-            <element signature="e#964#988#1#PHP" expanded="true" />
+            <element signature="e#41#101#0#PHP" expanded="true" />
+            <element signature="e#476#500#1#PHP" expanded="true" />
+            <element signature="e#553#574#1#PHP" expanded="true" />
+            <element signature="e#624#648#1#PHP" expanded="true" />
+            <element signature="e#691#727#0#PHP" expanded="true" />
+            <element signature="e#1204#1225#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -283,7 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -291,9 +317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#3632#3639#1#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -302,13 +326,12 @@
         <state relative-caret-position="238">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="e#41#98#0#PHP" expanded="true" />
-            <element signature="e#412#436#1#PHP" expanded="true" />
-            <element signature="e#489#510#1#PHP" expanded="true" />
-            <element signature="e#553#589#0#PHP" expanded="true" />
-            <element signature="e#812#833#1#PHP" expanded="true" />
-            <element signature="e#888#912#1#PHP" expanded="true" />
-            <element signature="e#964#988#1#PHP" expanded="true" />
+            <element signature="e#41#101#0#PHP" expanded="true" />
+            <element signature="e#476#500#1#PHP" expanded="true" />
+            <element signature="e#553#574#1#PHP" expanded="true" />
+            <element signature="e#624#648#1#PHP" expanded="true" />
+            <element signature="e#691#727#0#PHP" expanded="true" />
+            <element signature="e#1204#1225#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -339,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -382,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -410,28 +431,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-          <folding>
-            <element signature="e#41#98#0#PHP" expanded="true" />
-            <element signature="e#412#436#1#PHP" expanded="true" />
-            <element signature="e#489#510#1#PHP" expanded="true" />
-            <element signature="e#553#589#0#PHP" expanded="true" />
-            <element signature="e#812#833#1#PHP" expanded="true" />
-            <element signature="e#888#912#1#PHP" expanded="true" />
-            <element signature="e#964#988#1#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="87" column="130" lean-forward="false" selection-start-line="87" selection-start-column="130" selection-end-line="87" selection-end-column="130" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
           <folding>
-            <element signature="e#3632#3639#1#HTML" expanded="true" />
+            <element signature="e#41#101#0#PHP" expanded="true" />
+            <element signature="e#476#500#1#PHP" expanded="true" />
+            <element signature="e#553#574#1#PHP" expanded="true" />
+            <element signature="e#624#648#1#PHP" expanded="true" />
+            <element signature="e#691#727#0#PHP" expanded="true" />
+            <element signature="e#1204#1225#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
