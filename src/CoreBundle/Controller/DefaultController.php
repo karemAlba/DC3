@@ -32,7 +32,7 @@ class DefaultController extends Controller
         $est =  $query->getRepository('CoreBundle:TblEstacion')->findAll();
         $doc =  $query->getRepository('CoreBundle:TblCurso')->findOneBy(array('id' => 1));
 
-
+        for ($doc->getId()){
 
             $templateWord = new TemplateProcessor('C:\xampp\htdocs\DC3b\documentos\template.docx');
 
@@ -60,6 +60,6 @@ class DefaultController extends Controller
             header("Content-Disposition: attachment; filename=prueba.docx; charset=iso-8859-1");
             echo file_get_contents('prueba.docx');
         }
+}
 
-    
 }

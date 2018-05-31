@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a4b054-26e2-48b1-8256-4114f3650163" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/documentos/template.docx" afterPath="$PROJECT_DIR$/documentos/template.docx" />
       <change beforePath="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" />
-      <change beforePath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/web/Prueba.docx" afterPath="$PROJECT_DIR$/web/Prueba.docx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="e#41#101#0#PHP" expanded="true" />
                 <element signature="e#476#500#1#PHP" expanded="true" />
@@ -210,12 +206,12 @@
       <workItem from="1527781884084" duration="3745000" />
       <workItem from="1527787249663" duration="217000" />
       <workItem from="1527788430635" duration="7902000" />
-      <workItem from="1527801973238" duration="4691000" />
+      <workItem from="1527801973238" duration="4852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16555000" />
+    <option name="totallyTimeSpent" value="16716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -441,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="e#41#101#0#PHP" expanded="true" />
             <element signature="e#476#500#1#PHP" expanded="true" />
