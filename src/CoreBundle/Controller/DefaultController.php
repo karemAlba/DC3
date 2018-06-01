@@ -17,7 +17,10 @@ class DefaultController extends Controller
         $est =  $query->getRepository('CoreBundle:TblEstacion')->findAll();
         $curso = $query->getRepository('CoreBundle:TblCurso')->findAll();
         $em = $query->getRepository('CoreBundle:TblEmpleado')->findAll();
-        return $this->render('CoreBundle:Default:index.html.twig',array('est'=>$est , 'curso'=>$curso, 'em'=>$em ));
+
+
+        return $this->render('CoreBundle:Default:inicio.html.twig',array('est'=>$est , 'curso'=>$curso, 'em'=>$em ));
+
     }
 
 
@@ -26,40 +29,47 @@ class DefaultController extends Controller
      */
     public function documentosAction()
     {
+
+
+
+         return $this->render('CoreBundle:Default:prueba.html.twig');
+        /*
+
         $query = $this->getDoctrine()->getManager();
         $curso =  $query->getRepository('CoreBundle:TblCurso')->findAll();
         $empleo =  $query->getRepository('CoreBundle:TblEmpleado')->findAll();
         $est =  $query->getRepository('CoreBundle:TblEstacion')->findAll();
-        $doc =  $query->getRepository('CoreBundle:TblCurso')->findOneBy(array('id' => 1));
-
-        for ($doc->getId()){
-
-            $templateWord = new TemplateProcessor('C:\xampp\htdocs\DC3b\documentos\template.docx');
-
-            foreach ($empleo as $em) {
-                $templateWord->setValue('Value1', $em->getNombre());
-                $templateWord->setValue('Value2', $em->getCurp());
-                $templateWord->setValue('Value3', $em->getPuesto());
-            };
-            foreach ($est as $es) {
-                $templateWord->setValue('Value4', $es->getRSocial());
-                $templateWord->setValue('Value5', $es->getRfc());
-                $templateWord->setValue('Value10', $es->getRTrabajador());
-                $templateWord->setValue('Value11', $es->getRPatronal());
-            };
-            foreach ($curso as $c) {
-                $templateWord->setValue('Value6', $c->getNombre());
-                $templateWord->setValue('Value7', $c->getDuracion());
-                $templateWord->setValue('Value8', $c->getFInicio()->format('d.m.Y'));
-                $templateWord->setValue('Value9', $c->getFTermino()->format('d.m.Y'));
-            };
 
 
-            $templateWord->saveAs('Prueba.docx');
 
-            header("Content-Disposition: attachment; filename=prueba.docx; charset=iso-8859-1");
-            echo file_get_contents('prueba.docx');
-        }
-}
+        $templateWord = new TemplateProcessor('C:\xampp\htdocs\DC3b\documentos\template.docx');
+
+        foreach ($empleo as $em) {
+            $templateWord->setValue('Value1', $em->getNombre());
+            $templateWord->setValue('Value2', $em->getCurp());
+            $templateWord->setValue('Value3', $em->getPuesto());
+        };
+        foreach ($est as $es) {
+            $templateWord->setValue('Value4', $es->getRSocial());
+            $templateWord->setValue('Value5', $es->getRfc());
+            $templateWord->setValue('Value10', $es->getRTrabajador());
+            $templateWord->setValue('Value11', $es->getRPatronal());
+        };
+        foreach ($curso as $c) {
+            $templateWord->setValue('Value6', $c->getNombre());
+            $templateWord->setValue('Value7', $c->getDuracion());
+            $templateWord->setValue('Value8', $c->getFInicio()->format('d.m.Y'));
+            $templateWord->setValue('Value9', $c->getFTermino()->format('d.m.Y'));
+        };
+
+
+        $templateWord->saveAs('Prueba.docx');
+
+        header("Content-Disposition: attachment; filename=prueba.docx; charset=iso-8859-1");
+        echo file_get_contents('prueba.docx');
+
+*/
+    }
+
 
 }
