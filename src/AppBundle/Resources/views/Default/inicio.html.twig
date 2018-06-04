@@ -1,0 +1,67 @@
+{% extends('AppBundle::layout.html.twig') %}
+
+{% block body %}
+
+    <h1>DC3</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Nombre del trabajor</th>
+            <th scope="col">Estación</th>
+            <th scope="col">Curso</th>
+            <th scope="col">Descarga</th>
+
+
+        </tr>
+        </thead>
+        <tbody>
+        {% set i = 1 %}
+        {% for e in em  %}
+        {% for es in est %}
+
+        <tr>
+            <td>{{ e.nombre }}</td>
+
+            <td>{{ es.rSocial }}</td>
+
+            <td>
+                <select class="form-control" id="curso{{ i }}">
+                    {% for c in curso %}
+                        <option value="{{ c.id }}">{{ c.nombre }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+            <td>
+                <a class="btn btn-default btn-cons m-t-10 descargar" href="#" data-curso="curso{{ i }}" data-emp="{{ e.id }}" data-est="{{ es.id }}" role="button"><i class="fa fa-download"></i> Descargar </a>
+            </td>
+
+        </tr>
+            {% set i = i + 1 %}
+        {% endfor  %}
+        {% endfor %}
+
+        </tbody>
+    </table>
+</div><!-- col-lg-12 -->
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+    <script>
+        $(document).ready(function () {
+            $('.descargar').click(function () {
+                var curso = $(this).attr('data-curso');
+                var emple = $(this).attr('data-emp');
+                var esta = $(this).attr('data-est');
+                var option = $('#'+curso).find(":selected").val();
+                var url = "{{ path('doc',{'ide':'empleado','idc':'curso','ids':'estacion'}) }}";
+                url = url.replace("empleado",emple);
+                url = url.replace("curso",option);
+                url = url.replace("estacion",esta);
+                window.location.href = url;
+            });
+        });
+    </script>
+{% endblock %}

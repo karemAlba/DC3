@@ -2,74 +2,20 @@
 
 namespace CoreBundle\Controller;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use PhpOffice\PhpWord\TemplateProcessor;
+use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
-   /**
-     *@Route("/index" )
-     */
-        public function indexAction(){
-        $query = $this->getDoctrine()->getManager();
-        $est =  $query->getRepository('CoreBundle:TblEstacion')->findAll();
-        $curso = $query->getRepository('CoreBundle:TblCurso')->findAll();
-        $em = $query->getRepository('CoreBundle:TblEmpleado')->findAll();
-
-
-        return $this->render('CoreBundle:Default:inicio.html.twig',array('est'=>$est , 'curso'=>$curso, 'em'=>$em ));
-
-    }
-
-
     /**
-     * @Route("/doc" , name="doc")
+     * @Route("/", name="homepage")
      */
-    public function documentosAction()
+    public function indexAction(Request $request)
     {
-
-
-
-         return $this->render('CoreBundle:Default:prueba.html.twig');
-        /*
-
-        $query = $this->getDoctrine()->getManager();
-        $curso =  $query->getRepository('CoreBundle:TblCurso')->findAll();
-        $empleo =  $query->getRepository('CoreBundle:TblEmpleado')->findAll();
-        $est =  $query->getRepository('CoreBundle:TblEstacion')->findAll();
-
-
-
-        $templateWord = new TemplateProcessor('C:\xampp\htdocs\DC3b\documentos\template.docx');
-
-        foreach ($empleo as $em) {
-            $templateWord->setValue('Value1', $em->getNombre());
-            $templateWord->setValue('Value2', $em->getCurp());
-            $templateWord->setValue('Value3', $em->getPuesto());
-        };
-        foreach ($est as $es) {
-            $templateWord->setValue('Value4', $es->getRSocial());
-            $templateWord->setValue('Value5', $es->getRfc());
-            $templateWord->setValue('Value10', $es->getRTrabajador());
-            $templateWord->setValue('Value11', $es->getRPatronal());
-        };
-        foreach ($curso as $c) {
-            $templateWord->setValue('Value6', $c->getNombre());
-            $templateWord->setValue('Value7', $c->getDuracion());
-            $templateWord->setValue('Value8', $c->getFInicio()->format('d.m.Y'));
-            $templateWord->setValue('Value9', $c->getFTermino()->format('d.m.Y'));
-        };
-
-
-        $templateWord->saveAs('Prueba.docx');
-
-        header("Content-Disposition: attachment; filename=prueba.docx; charset=iso-8859-1");
-        echo file_get_contents('prueba.docx');
-
-*/
+        // replace this example code with whatever you need
+        return $this->render('default/index.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
+        ]);
     }
-
-
 }
